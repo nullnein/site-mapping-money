@@ -1,6 +1,6 @@
-baseURL = "http://example.org/"
+baseURL = "https://mapping-money.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Mapping Money"
 theme = "reveal-hugo"
 
 [markup.goldmark.renderer]
@@ -10,3 +10,10 @@ unsafe = true
 baseName = "index"
 mediaType = "text/html"
 isHTML = true
+
+[params.logo]
+src = "/img/logo.png"
+
+[params.reveal_hugo]
+custom_theme = "reveal-hugo/themes/robot-lung.css"
+
